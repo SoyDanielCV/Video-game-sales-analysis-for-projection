@@ -9,3 +9,5 @@ The available data covered information up to the year 2016. Assuming I was worki
 The main goal of the project was to gain experience working with data. Therefore, the objective was not tied to a specific year; predicting 2017 sales using 2016 data was just as valid as predicting 2027 sales using 2026 data.
 
 The dataset also included a column called "rating", which stored the ESRB rating for each game. This rating, assigned by the Entertainment Software Rating Board, evaluates a game's content and assigns an age category such as Teen or Adult.
+
+(Content in Spanish)
