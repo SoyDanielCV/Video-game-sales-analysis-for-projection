@@ -1,13 +1,178 @@
-# Video-game-sales-analysis-for-projection
+# 🎮 Video Game Sales Analysis | Análisis de Ventas de Videojuegos
 
-## Project Description 
+---
 
-In this project, I worked for the online store Ice, a platform that sells video games worldwide. I had access to information from open sources, including user and expert reviews, genres, platforms (such as Xbox or PlayStation), and historical game sales data. Using this dataset, I identified patterns that helped determine whether a game could be considered successful. These patterns made it possible to detect promising projects and support the planning of advertising campaigns.
+## 🇺🇸 English
 
-The available data covered information up to the year 2016. Assuming I was working in December 2016, I conducted an analysis aimed at planning campaigns and forecasting sales behavior for 2017.
+### 📌 Overview
 
-The main goal of the project was to gain experience working with data. Therefore, the objective was not tied to a specific year; predicting 2017 sales using 2016 data was just as valid as predicting 2027 sales using 2026 data.
+This project analyzes global video game sales data to identify patterns that determine a game's success. The insights help support marketing strategies and sales forecasting.
 
-The dataset also included a column called "rating", which stored the ESRB rating for each game. This rating, assigned by the Entertainment Software Rating Board, evaluates a game's content and assigns an age category such as Teen or Adult.
+---
 
-(Content in Spanish)
+### 🎯 Objective
+
+* Identify factors that influence game success
+* Analyze trends across platforms and genres
+* Support advertising and business decisions
+
+---
+
+### 📊 Data Description
+
+The dataset includes:
+
+* Game name, platform, and genre
+* Regional sales (NA, EU, JP, Other)
+* Critic and user scores
+* ESRB rating
+
+---
+
+### ⚙️ Data Preparation
+
+* Handled missing values
+* Standardized column names
+* Converted data types
+* Created **total_sales** feature
+
+---
+
+### 📈 Key Analysis
+
+#### 📊 Platforms
+
+* Top platforms: PS2, Xbox 360, Wii, PS3
+* Strong decline of older consoles over time
+
+#### 🎮 Genres
+
+* Most profitable: Platform, Shooter
+* Highest volume: Action, Sports
+
+#### 🌍 Regional Insights
+
+* NA & EU: Action and Sports dominate
+* Japan: Strong preference for Role-Playing games
+
+---
+
+### 🧪 Statistical Analysis
+
+* Hypothesis testing using t-tests
+* Compared:
+
+  * Platform performance (XOne vs PC)
+  * Genre differences (Action vs Sports)
+
+---
+
+### 💡 Key Insights
+
+* Profitability ≠ number of games
+* Platform lifecycle strongly impacts sales
+* Regional preferences are significantly different
+
+---
+
+### 🚀 Business Impact
+
+* Helps identify promising game projects
+* Supports targeted marketing campaigns
+* Improves decision-making for future releases
+
+---
+
+### 🛠️ Tech Stack
+
+* Python
+* Pandas / NumPy
+* Matplotlib / Seaborn
+* SciPy (hypothesis testing)
+
+---
+
+## 🇪🇸 Español
+
+### 📌 Descripción
+
+Este proyecto analiza datos globales de ventas de videojuegos para identificar patrones que determinan el éxito de un juego y apoyar decisiones de negocio.
+
+---
+
+### 🎯 Objetivo
+
+* Identificar factores de éxito
+* Analizar tendencias por plataforma y género
+* Apoyar decisiones de marketing
+
+---
+
+### 📊 Datos
+
+Incluyen:
+
+* Nombre, plataforma y género
+* Ventas por región
+* Calificaciones de usuarios y críticos
+* Clasificación ESRB
+
+---
+
+### ⚙️ Preparación de Datos
+
+* Manejo de valores faltantes
+* Estandarización de columnas
+* Conversión de tipos de datos
+* Creación de **total_sales**
+
+---
+
+### 📈 Análisis Clave
+
+#### 📊 Plataformas
+
+* Principales: PS2, Xbox 360, Wii, PS3
+* Declive de consolas antiguas
+
+#### 🎮 Géneros
+
+* Más rentables: Platform, Shooter
+* Más populares: Action, Sports
+
+#### 🌍 Regiones
+
+* NA y Europa: Acción y Deportes
+* Japón: Role-Playing dominante
+
+---
+
+### 🧪 Análisis Estadístico
+
+* Pruebas de hipótesis (t-test)
+* Comparación entre plataformas y géneros
+
+---
+
+### 💡 Insights Clave
+
+* Rentabilidad ≠ cantidad de juegos
+* Ciclo de vida de plataformas es clave
+* Preferencias varían por región
+
+---
+
+### 🚀 Impacto de Negocio
+
+* Identificación de juegos prometedores
+* Optimización de campañas publicitarias
+* Mejores decisiones estratégicas
+
+---
+
+### 🛠️ Tecnologías
+
+* Python
+* Pandas / NumPy
+* Matplotlib / Seaborn
+* SciPy
